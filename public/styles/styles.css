@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+body{
+    background-color: #e8ffff !important;
+    margin: 0 !important;
+    overflow: hidden;
+    line-height: 0;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: CONTENEDORES EXPERIENCIA, EDUCACION, CONTACTAME Y PERFIL */
+
+.exp, .edu, .con, .per {
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    position: content;
+    padding: 5%;
+    height: 100vh;
+    align-items: center;
+    
+}
+.exp{
+    
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+}
+
+/* ---------------------------------------------------------- */
+/* //TODO: ANIMACION EXPERIENCIA */
+
+#expText{
+    animation-duration: 1s;
+    animation-name: slideinTop;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: slideinTop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slideinTop;
+    -o-animation-duration: 1s;
+    -o-animation-name: slideinTop;
+}
+
+#expText-1{
+    animation-duration: 2s;
+    animation-name: slideinTop;
+    -moz-animation-duration: 2s;
+    -moz-animation-name: slideinTop;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: slideinTop;
+    -o-animation-duration: 2s;
+    -o-animation-name: slideinTop;
+}
+
+#expText-2{
+    animation-duration: 3s;
+    animation-name: slideinTop;
+    -moz-animation-duration: 3s;
+    -moz-animation-name: slideinTop;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slideinTop;
+    -o-animation-duration: 3s;
+    -o-animation-name: slideinTop;
+}
+
+@keyframes slideinTop {
+    from {
+      margin-top: 100%;
+      
+    }
+  
+    to {
+      margin-top: 0%;
+      
+    }
+}
+
+#expSubText{
+    animation-duration: 1s;
+    animation-name:  textPer-1;
+    -moz-animation-duration: 1s;
+    -moz-animation-name:  textPer-1;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name:  textPer-1;
+    -o-animation-duration: 1s;
+    -o-animation-name:  textPer-1;
+}
+
+#expSubText-1{
+    animation-duration: 2.5s;
+    animation-name:  textPer-1;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-name:  textPer-1;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-name:  textPer-1;
+    -o-animation-duration: 2.5s;
+    -o-animation-name:  textPer-1;
+}
+
+#expSubText-2{
+    animation-duration: 4s;
+    animation-name:  textPer-1;
+    -moz-animation-duration: 4s;
+    -moz-animation-name:  textPer-1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name:  textPer-1;
+    -o-animation-duration: 4s;
+    -o-animation-name:  textPer-1;
+}
+
+/* ---------------------------------------------------------- */
+/* //TODO: ANIMACION EDUCACION */
+
+#textEdu{
+    animation-duration: 1s;
+    animation-name:  textPer-1;
+    -moz-animation-duration: 1s;
+    -moz-animation-name:  textPer-1;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name:  textPer-1;
+    -o-animation-duration: 1s;
+    -o-animation-name:  textPer-1;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: LOGO URBE ANIMACION */
+
+#LogoUrbe{
+    height: 13rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    animation-duration: 1s;
+    animation-name: perImg;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: perImg;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: perImg;
+    -o-animation-duration: 1s;
+    -o-animation-name: perImg;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: TEXTO CONTACTAME ANIMACION */
+
+.textContacto{
+    animation-duration: 1.3s;
+    animation-name: textPer;
+    -moz-animation-duration: 1.3s;
+    -moz-animation-name: textPer;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-name: textPer;
+    -o-animation-duration: 1.3s;
+    -o-animation-name: textPer;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: CONTACTAME FOTO Y ANIMACION DE FOTO */
+
+#foto{
+    height: 13rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    box-shadow: -1px 2px 10px 3px #3b635f;
+    -webkit-box-shadow: -1px 2px 10px 3px #3b635f;
+    -moz-box-shadow: -1px 2px 10px 3px #3b635f;
+    -o-box-shadow: -1px 2px 10px 3px #3b635f;
+    animation-duration: 1s;
+    animation-name: perImg;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: perImg;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: perImg;
+    -o-animation-duration: 1s;
+    -o-animation-name: perImg; 
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: PERFIL FOTO Y ANIMACION DE FOTO */
+
+#ImgPerfil{
+    height: 13rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    box-shadow: -1px 2px 10px 3px #3b635f;
+    -webkit-box-shadow: -1px 2px 10px 3px #3b635f;
+    -moz-box-shadow: -1px 2px 10px 3px #3b635f;
+    -o-box-shadow: -1px 2px 10px 3px #3b635f;
+    animation-duration: 1s;
+    animation-name: perImg;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: perImg;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: perImg;
+    -o-animation-duration: 1s;
+    -o-animation-name: perImg;
+}
+
+@keyframes perImg{
+    0%{
+        -moz-transform: scale(0.3);
+        -moz-transform-style: preserve-3d;
+        -webkit-transform: scale(0.3);
+        -webkit-transform-style: preserve-3d;
+        -o-transform: scale(0.3);
+        -o-transform-style: preserve-3d;
+        transform: scale(0.3);
+        transform-style: preserve-3d;
+        
+    }
+    
+    25% {
+        
+        -moz-transform: scale(0.5) rotateY(180deg);
+        -moz-transform-style: preserve-3d;
+        -webkit-transform: scale(0.5) rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        -o-transform: scale(0.5) rotateY(180deg);
+        -o-transform-style: preserve-3d;
+        transform: scale(0.5) rotateY(180deg);
+        transform-style: preserve-3d;
+        
+    }
+    
+    50% {
+        -webkit-transform: scale(0.7) rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform: scale(0.7) rotateY(0deg);
+        -moz-transform-style: preserve-3d;
+        -o-transform: scale(0.7) rotateY(0deg);
+        -o-transform-style: preserve-3d;
+        transform: scale(0.7) rotateY(0deg);
+        transform-style: preserve-3d;
+        
+    }
+
+    75% {
+        -moz-transform: scale(0.9) rotateY(180deg);
+        -moz-transform-style: preserve-3d;
+        -webkit-transform: scale(0.9) rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        -o-transform: scale(0.9) rotateY(180deg);
+        -o-transform-style: preserve-3d;
+        transform: scale(0.9) rotateY(180deg);
+        transform-style: preserve-3d;
+        
+    }
+    
+    100% {
+        -webkit-transform: scale(1) rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform: scale(1) rotateY(0deg);
+        -moz-transform-style: preserve-3d;
+        -o-transform: scale(1) rotateY(0deg);
+        -o-transform-style: preserve-3d;
+        transform: scale(1) rotateY(0deg);
+        transform-style: preserve-3d;
+        
+    }
+
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: TRANSICION TEXTO SECCION PERFIL */
+
+#animationtext{
+    animation-duration: 1.3s;
+    animation-name: textPer;
+    -moz-animation-duration: 1.3s;
+    -moz-animation-name: textPer;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-name: textPer;
+    -o-animation-duration: 1.3s;
+    -o-animation-name: textPer;
+}
+
+@keyframes textPer{
+    from {
+       margin-top: 100%;
+
+        }
+    
+      to {
+          margin-top:0%;
+        }
+}
+
+#animationtext-1{
+    animation-duration: 1.3s;
+    animation-name: textPer-1;
+    -moz-animation-duration: 1.3s;
+    -moz-animation-name: textPer-1;
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-name: textPer-1;
+    -o-animation-duration: 1.3s;
+    -o-animation-name: textPer-1;
+}
+
+@keyframes textPer-1{
+    from {
+        margin-left: 100%;
+        width:  300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: CONTACTAME ICONOS ANIMACION Y TAMAÑOS */
+
+#imgCon{
+    height: 3rem;
+    width: 3rem;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  
+}
+
+#imgCon:hover{
+  
+    -moz-transform: rotateY(180deg);
+    -moz-transform-style: preserve-3d;
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    -o-transform:  rotateY(180deg);
+    -o-transform-style: preserve-3d;
+    -ms-transform: rotateY(180deg) ;
+    -ms-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    
+    
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: CONTACTAME CONTAINER */
+
+.con{
+    padding-top: 10%;
+}
+/* ---------------------------------------------------------- */
+/*  TODO: ICONO MAIL TAMAÑO */
+
+.mail {
+    height: 3.60rem !important;
+    width: 3.70rem !important;
+    
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: LINEAS HORIZONTALES EN EXPERIENCIA */
+
+hr {
+    width: 70%;
+    background-color: #3b635f !important;
+    border-radius: 50px !important;
+    box-shadow: -1px 1px 20px 2px #3b635f;
+    -webkit-box-shadow: -1px 1px 20px 2px #3b635f;
+    -moz-box-shadow: -1px 1px 20px 2px #3b635f;
+    -o-box-shadow: -1px 1px 20px 2px #3b635f;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FUENTE H4 */
+
+h4{
+	font-family: 'Courgette', bolder;
+	color: #27807b !important;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FUENTE H6 */
+
+h6{
+    font-family: 'Courgette', cursive;
+	font-weight: lighter !important;
+	color: #3b635f !important;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FUNTE H2 EN PERFIL */
+
+.per h2{
+    color: #27807b !important;   
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FUENTE "A" EN PERFIL Y EXPERIENCIA */
+
+p, .exp a{
+    font-family: 'Courgette', cursive !important;
+	font-size: 1.20rem;  
+	font-weight: lighter !important;
+    color: #132926 !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+/* ---------------------------------------------------------- */

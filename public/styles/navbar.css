@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+/* TODO: CONTANIER NAVBAR */
+.sidebar-container {
+    display: grid !important;
+    position: fixed !important;
+    padding: 0 !important;
+    height: 100vh;
+    width: 330px !important;
+    overflow: hidden;
+    background: #1a1a1a;
+    color: #e8ffff;
+    box-shadow: 5px 2px 10px 1px #3b635f;
+    -webkit-box-shadow: 5px 2px 10px 1px #3b635f;
+    -moz-box-shadow:  5px 2px 10px 1px #3b635f;
+    -o-box-shadow:  5px 2px 10px 1px #3b635f;
+}
+ 
+/* ---------------------------------------------------------- */
+/* TODO: SECCION SUPERIOR DEL NAVBAR */
+
+.sidebar-logo {
+    display: grid;
+    height: 266px;
+    padding: 0% 20% 0px 20% !important;
+    background-color: #41aea9;
+}
+
+#LogoSeccion-1, #LogoSeccion-2{
+    align-self: center;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FOTO NAVBAR */
+
+#imgNav{
+    height: 125px; 
+    width: 125px; 
+    margin-bottom: 5%;
+    box-shadow: -1px 2px 10px 3px #3b635f;
+    -webkit-box-shadow: -1px 2px 10px 3px #3b635f;
+    -moz-box-shadow: -1px 2px 10px 3px #3b635f;
+    -o-box-shadow: -1px 2px 10px 3px #3b635f;
+    animation-duration: 1s;
+    animation-name: perImg;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: perImg;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: perImg;
+    -o-animation-duration: 1s;
+    -o-animation-name: perImg;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: SECCION DE OPCIONES */
+
+.sidebar-navigation {
+    display: block;
+    align-self: center;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+  
+.sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+}
+  
+.sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #e8ffff;
+}
+  
+.sidebar-navigation li .fa {
+    margin-right: 10px;
+}
+  
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+  
+.sidebar-navigation li::before {
+    background-color: #41aea9;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+}
+  
+.sidebar-navigation li:hover::before {
+    width: 100%;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: FUENTES TEXTO */
+
+h2, h3{
+    font-family: 'Satisfy', cursive;
+}
+
+a{
+   font-family: 'Courgette', cursive;
+   font-size: 1.30rem ; 
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: ICONS */
+
+i.fas,
+i.fab {
+      font-size: 1.30rem;
+      color: #e8ffff;
+}
+
+/* ---------------------------------------------------------- */
+/* TODO: NAV RESPONSIVE */
+
+.navBarContainer{
+
+    position: fixed !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 10vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #1a1a1afb;
+    box-shadow: 5px 2px 10px 1px #3b635f;
+    -webkit-box-shadow: 5px 2px 10px 1px #3b635f;
+    -moz-box-shadow:  5px 2px 10px 1px #3b635f;
+    -o-box-shadow:  5px 2px 10px 1px #3b635f;
+}
+
+nav {
+    float:left !important;
+    padding: 0 !important;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+

@@ -1,0 +1,126 @@
+@media only screen and (max-width: 991px) {
+
+*{
+
+  margin: 0 !important;
+}
+body{
+    
+    overflow-y: scroll !important;
+}
+/* ------------------------------------------------------------------------------------- */
+/* TODO: TAMAÑO DE FOTOS Y MARGIN BUTTOM PARA LA FOTOS */
+
+#ImgPerfil, #foto, #LogoUrbe{
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 5% !important;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* TODO: ANIMACION IMAGENES Y TEXTO */
+
+    #ImgPerfil, #animationtext, #animationtext-1, #textEdu, #LogoUrbe, 
+    #foto, #expSubText, #expText, #expText-1, #expSubText-1, #expText-2,
+    #expSubText-2, .textContacto {
+        animation-name: none;
+        -moz-animation-name: none;
+        -webkit-animation-name: none;
+        -o-animation-name: none;
+    }
+
+    #perfil, #educacion, #experiencia, #contactame{
+        animation-duration: 1.3s !important;
+        animation-name: ResponsiveContentAnimation !important;
+        -moz-animation-duration: 1.3s !important;
+        -moz-animation-name: ResponsiveContentAnimation !important; 
+        animation-duration: 1.3s !important;
+        -webkit-animation-name: ResponsiveContentAnimation !important;
+        -o-animation-duration: 1.3s !important; 
+        -o-animation-name: ResponsiveContentAnimation !important;
+    }
+
+
+    @keyframes ResponsiveContentAnimation{
+        from {
+            margin-left: 100%;
+            width:  300%;
+          }
+        
+          to {
+            margin-left: 0%;
+            width: 100%;
+          }
+    }
+
+/* ------------------------------------------------------------------------------------- */
+/* TODO: UBICACION DE CONTENIDO */
+    
+#contenido{
+        
+        padding-top: 10vh;
+    }
+.edu{
+    justify-content: center;
+    align-content: start;
+}
+
+/* .per, .exp{
+    overflow-y: scroll !important;
+} */
+
+/* ------------------------------------------------------------------------------------- */
+/* TODO: ICONOS DE NAV */
+    i.fas,
+    i.fab{
+          font-size: 4rem;
+          color: #e8ffff;
+    }
+    #opcion1, #opcion2, #opcion3{
+        margin-right: 5rem;
+    }
+
+/* ------------------------------------------------------------------------------------- */
+/* TODO: FUENTES */
+
+.exp a, p{
+	font-size: 4rem;  
+}
+.per h2{
+    font-size: 6rem;
+}
+
+h4{
+    font-size: 4rem !important;
+}
+
+h6{
+  font-size: 2.8rem !important;
+  margin-top: 1rem !important;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/*  TODO: ICONOS CONTACTAME */
+
+#imgCon {
+    height: 6rem;
+    width: 6rem;
+}
+
+.mail {
+    height: 7rem !important;
+    width: 7rem !important;
+    
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* TODO: BARRAS HORIZONTALES EXPERIENCIA*/
+
+hr {
+    border-top: 2px solid #3b635f !important;
+
+}
+
+}

@@ -1,0 +1,207 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Ing.M.U.</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/navbar.css">
+	<link rel="stylesheet" href="styles/responsive.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+	<script type="text/javascript" src="index.js"></script>
+
+</head>
+
+<body class="container-fuid">
+	<div class="row">
+
+	<!-- TODO: SECCION NAVBAR  -->
+	<header class="navBarContainer d-print-none d-flex d-sm-flex d-md-flex d-lg-none d-lx-none col-12 col-sm-12 col-md-12">
+		<nav >
+			<ul class="nav justify-content-center">
+
+				<li  class="nav-item" onclick="ClickNav(1)">
+					<a class="nav-link" href="#">
+						<i id="opcion1" class="fas  fa-user"></i>
+					</a>
+				</li>
+				<li  class="nav-item" onclick="ClickNav(2)">
+					<a class="nav-link" href="#">
+						<i id="opcion2" class="fas fa-suitcase"></i>
+					</a>
+				</li>
+				<li class="nav-item" onclick="ClickNav(3)">
+					<a class="nav-link" href="#">
+						<i id="opcion3" class="fas fa-user-graduate"></i>
+					</a>
+				</li>
+				<li class="nav-item" onclick="ClickNav(4)">
+					<a class="nav-link" href="#">
+						<i id="opcion4" class="fas fa-share-alt"></i>&nbsp;
+					</a>
+				</li>
+	
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<nav class="d-none d-sm-none d-md-none d-lg-inline-flex d-xl-inline-flex col-lg-3 col-xl-3">	
+		<div id="navbar" class="sidebar-container">
+			<div class="sidebar-logo text-left col-12" style="cursor:pointer;" onclick="ClickNav(1)">
+
+				<div id="LogoSeccion-1">
+					<h2>&nbsp;María</h2>
+					<h2 class="text-right">Uzcategui&nbsp;</h2>
+				</div>
+				<div id="LogoSeccion-2" class="text-center" style="display: none;">
+					<img id="imgNav" src="images/1537384166448.jpg" class="img-fluid rounded-circle"></img>
+					<br />
+					<h3 class="text-left">&nbsp;&nbsp;&nbsp;María</h3>
+					<h3 class="text-right">Uzcategui&nbsp;&nbsp;&nbsp;</h3>
+
+				</div>
+			</div>
+			<ul class="nav flex-column sidebar-navigation ">
+
+				<li  class="nav-item" onclick="ClickNav(2)">
+					<a href="#">
+						<i  class="fas fa-suitcase"></i>&nbsp;&nbsp;&nbsp;Experiencia
+					</a>
+				</li>
+				<li  class="nav-item" onclick="ClickNav(3)">
+					<a href="#">
+						<i  class="fas fa-user-graduate"></i>&nbsp;&nbsp;&nbsp;Educación
+					</a>
+				</li>
+				<li  class="nav-item" onclick="ClickNav(4)">
+					<a href="#">
+						<i  class="fas fa-share-alt"></i>&nbsp;&nbsp;&nbsp;Contáctame
+					</a>
+				</li>
+
+			</ul>
+			<div class="text-center" style="font-size: 0.9rem !important; place-self: flex-end;
+					padding: 0.5rem;">
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+					<img alt="Licencia Creative Commons" style="border-width:0"
+						src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+				<br />Esta obra está bajo una
+				<a style="font-size: 0.93rem !important;" rel="license"
+					href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons
+					Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+				<br />
+			</div>
+
+		</div>
+	</nav>	
+
+	
+
+
+	<!-- TODO: SECCIONES DE CONTENIDO -->
+		<div id="contenido" class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+			<!-- TODO: SECCION PERFIL -->
+			<div id="perfil" class="per col-12" style="text-align: center;">
+				<img id="ImgPerfil" src="images/1537384166448.jpg" class="img-fluid rounded-circle"></img>
+				<h2 id="animationtext-1">María Uzcategui</h2>
+				<h6 id="animationtext-1">Ing. En Informática. Programadora front-end.</h6>
+				<p id="animationtext">Soy una persona lectora, autodidacta que nunca deja de aprender,
+					que adora los retos y no se rinde fácilmente. Considero que el cambio
+					es un signo de capacidad de superación y, por ello, creo que siempre
+					sería capaz de aportar valor en la empresa en la que me encuentre.
+					Mi objetivo principal es desarrollarme profesionalmente y evolucionar
+					en mi sector, de modo que busco oportunidades que me permitan hacerlo.</p>
+			</div>
+
+			<!-- TODO: SECCION EXPERIENCIA -->
+			<div id="experiencia" class="exp col-12" style="display: none; text-align: center;">
+				<h4 id="expSubText">ANALISTA II</h4>
+				<h6 id="expSubText">C.A. Seguros Catatumbo (Febrero/2020 – Julio/2020)</h6>
+				<a id="expText">Empleado con la finalidad de analizar, desarrollar y documentar
+					actualizaciones al sistema de información.
+				</a><br/><br/>
+
+				<hr id="expText-1">
+
+				<br/><br/>
+
+				<h4 id="expSubText-1">PROGRAMADOR FRONT-END</h4>
+				<h6 id="expSubText-1">AresSolutiones (Mayo/2019)</h6>
+				<a id="expText-1">Empleado como outsourcing implementando Bootstrap, HTML5 y CSS3 en el
+					maquetado de la nueva plataforma de la planeación distrital de Bogotá.
+				</a><br/><br/>
+
+				<hr id="expText-2">
+
+				<br/><br/>
+				<h4 id="expSubText-2">PROGRAMADOR FRONT-END</h4>
+				<h6 id="expSubText-2">Sistemas Ventor (Septiembre/2018 – Abril/2019)</h6>
+				<a id="expText">Participación en el maquetado de los proyectos Ventor Settings, Ventor Sales 2.0 y
+					Unilever.
+					Utilizando el framework Angular6, HTML5, Typescript y SCSS.
+				</a><br/><br/>
+
+				<hr id="expText">
+
+				<br/><br/>
+				<h4 id="expSubText">PROGRAMADOR FRONT-END</h4>
+				<h6 id="expSubText">Grupo Bridge, C.A (Agosto/2018)</h6>
+				<a id="expText">Periodo de prueba realizando traducción de un proyecto app web móvil
+					y modificaciones de diseño utilizando CSS, JavaScript, HTML y PHP.
+				</a><br/><br/>
+
+				<hr id="expText">
+
+				<br /><br />
+				<h4 id="expSubText">ANALISTA Y PROGRAMADOR</h4>
+				<h6 id="expSubText">Inverdata (Abril/2018 – Julio/2018)</h6>
+				<a id="expText">Evaluación de requerimientos faltantes en la nueva versión de Saphiro Biométrico,
+					planificación e implementación de tiempos de entrega, análisis lógico de código y
+					depuración del mismo. Programando en Java SE junto con PostgreSQL, enfocada en la
+					validación de datos y mejoras del diseño.
+				</a><br/><br/>
+
+
+			</div>
+
+			<!-- TODO: SECCION EDUCACION -->
+			<div id="educacion" class="edu col-12" style="display: none;">
+				<a><img id="LogoUrbe" src="images/logo-urbe5-sinfondo.gif"></a> <br />
+				<h4 id="textEdu">PREGRADO, INGENIERÍA EN INFORMÁTICA. (2019)</h4>
+				<h6 id="textEdu">Universidad Rafael Belloso Chacín.</h6>
+
+			</div>
+
+			<!-- TODO: SECCION CONTACTAME -->
+			<div id="contactame" class="con col-12" style="display: none; text-align: center;">
+				<img id="foto" src="images/1537384166448.jpg" class="img-fluid rounded-circle"></img>
+				<div class="textContacto">
+					<h4>Contáctame para más información sobre mis servicios</h4><br />
+					<a href="mailto:marigabi940@gmail.com"><img id="imgCon" class="mail" src="images/gmail.svg"></a>
+					<a href="https://www.linkedin.com/in/maría-gabriela-uzcategui-perich-8b0072126"><img id="imgCon"
+							src="images/linkedin.svg"></a>
+					<a href="https://github.com/Marigabi94?tab=repositories"><img id="imgCon"
+							src="images/github.svg"></a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
