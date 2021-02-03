@@ -1,0 +1,58 @@
+*, body, html, div, blockquote, img, p, h1, h2, h3, h4, h5, h6, label,pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td, nav, header, aside, .content, .row, .column
+{
+margin: 0; padding: 0; border: 0; outline: none; background: transparent; text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+}
+
+body
+{
+line-height: 1.3;
+font-size: 100%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+ 
+ul, ol, li
+{
+list-style: none;
+}
+ 
+
+.content{
+    display: content;
+    height: 100vh;
+    width: 100vw;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.rounded{
+    border-radius: 100%;
+}

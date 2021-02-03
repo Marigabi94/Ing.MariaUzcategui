@@ -1,126 +1,70 @@
-@media only screen and (max-width: 991px) {
-
-*{
-
-  margin: 0 !important;
-}
-body{
+/* Small devices (phones,tablets, 992px and down) */
+@media only screen and (max-width: 992px) { /* AQUIIIIIII SE VE EL MAXIMO DE TAMAÑO DE UNA PANTALLA*/
     
-    overflow-y: scroll !important;
-}
-/* ------------------------------------------------------------------------------------- */
-/* TODO: TAMAÑO DE FOTOS Y MARGIN BUTTOM PARA LA FOTOS */
-
-#ImgPerfil, #foto, #LogoUrbe{
-    height: 25rem;
-    width: 25rem;
-    margin-bottom: 5% !important;
-}
-
-
-
-/* ------------------------------------------------------------------------------------- */
-/* TODO: ANIMACION IMAGENES Y TEXTO */
-
-    #ImgPerfil, #animationtext, #animationtext-1, #textEdu, #LogoUrbe, 
-    #foto, #expSubText, #expText, #expText-1, #expSubText-1, #expText-2,
-    #expSubText-2, .textContacto {
-        animation-name: none;
-        -moz-animation-name: none;
-        -webkit-animation-name: none;
-        -o-animation-name: none;
+    .d-print-none, .d-block{
+        display: none;
+    }
+    .d-sm-block{
+        display: flex;
     }
 
-    #perfil, #educacion, #experiencia, #contactame{
-        animation-duration: 1.3s !important;
-        animation-name: ResponsiveContentAnimation !important;
-        -moz-animation-duration: 1.3s !important;
-        -moz-animation-name: ResponsiveContentAnimation !important; 
-        animation-duration: 1.3s !important;
-        -webkit-animation-name: ResponsiveContentAnimation !important;
-        -o-animation-duration: 1.3s !important; 
-        -o-animation-name: ResponsiveContentAnimation !important;
+    .col {width: 100%;}
+    
+    .contenido{
+        padding-top: 15vh;
+        align-items: stretch;
+        position: absolute;
+        overflow-x: hidden;
+       
+    }
+    .per{
+        position: absolute;
+    }
+    .exp, .per{
+        padding-bottom: 10vh; 
+    }
+
+    .text3{
+        padding: 0 5vw 0 5vw;
+    }
+
+    .expText, .expText-1, .expText-2, .textContacto, 
+    .expSubText, .expSubText-1, .expSubText-2, .textEdu, .animationtext, .animationtext-1 {
+        animation-name: escala;
+        animation-duration: 2s;
     }
 
 
-    @keyframes ResponsiveContentAnimation{
-        from {
-            margin-left: 100%;
-            width:  300%;
-          }
+}  
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
         
-          to {
-            margin-left: 0%;
-            width: 100%;
-          }
+    .d-sm-print-none, .d-sm-block{
+        display: none;
+    }
+    .d-block{
+        display: flex;
     }
 
-/* ------------------------------------------------------------------------------------- */
-/* TODO: UBICACION DE CONTENIDO */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
     
-#contenido{
-        
-        padding-top: 10vh;
-    }
-.edu{
-    justify-content: center;
-    align-content: start;
-}
-
-/* .per, .exp{
-    overflow-y: scroll !important;
-} */
-
-/* ------------------------------------------------------------------------------------- */
-/* TODO: ICONOS DE NAV */
-    i.fas,
-    i.fab{
-          font-size: 4rem;
-          color: #e8ffff;
-    }
-    #opcion1, #opcion2, #opcion3{
-        margin-right: 5rem;
-    }
-
-/* ------------------------------------------------------------------------------------- */
-/* TODO: FUENTES */
-
-.exp a, p{
-	font-size: 4rem;  
-}
-.per h2{
-    font-size: 6rem;
-}
-
-h4{
-    font-size: 4rem !important;
-}
-
-h6{
-  font-size: 2.8rem !important;
-  margin-top: 1rem !important;
-}
-
-/* ------------------------------------------------------------------------------------- */
-/*  TODO: ICONOS CONTACTAME */
-
-#imgCon {
-    height: 6rem;
-    width: 6rem;
-}
-
-.mail {
-    height: 7rem !important;
-    width: 7rem !important;
-    
-}
-
-/* ------------------------------------------------------------------------------------- */
-/* TODO: BARRAS HORIZONTALES EXPERIENCIA*/
-
-hr {
-    border-top: 2px solid #3b635f !important;
-
-}
-
+  .exp{
+      padding: 5% 0 5% 0;
+  }    
+  .contenido{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }

@@ -1,0 +1,41 @@
+/* text1 = h4 */
+/* text2 = h6 */
+/* text4 = h2 perfil */
+/* text3 = a y p */
+/* text5 = h2, h3 sidebar */
+/* text6 = a sidebar */
+.text1{
+    font-family: 'Courgette', bolder;
+   
+}
+.text1, .text4{
+    color: #27807b;
+}
+.text2, .text3{
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+}
+
+.text2{
+    color: #3b635f;
+}
+.text3{
+    font-size: 1.20rem;
+    color: #132926;
+    
+}
+
+.text5, .text4{
+    font-family: 'Satisfy', light;
+    font-weight: 100;
+    font-size: 1.70rem;
+}
+
+.text6{
+    font-family: 'Courgette', cursive;
+    
+}
+
+.text1,.text6{
+    font-size: 1.30rem;
+}
