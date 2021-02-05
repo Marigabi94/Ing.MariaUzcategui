@@ -25,7 +25,7 @@ function ClickNav(idButton) {
             opcion2.style.color = '#e8ffff';
             opcion3.style.color = '#e8ffff';
             opcion4.style.color = '#e8ffff';
-            perfil.scrollY = 0;
+            perfil.scrollTo = 0;
             break;
         case 2:
           perfil.style.display = 'none';
@@ -65,7 +65,6 @@ function ClickNav(idButton) {
           opcion3.style.color = '#e8ffff';
           opcion4.style.color = '#41aea9';
           break;
-       
       }
 
 }

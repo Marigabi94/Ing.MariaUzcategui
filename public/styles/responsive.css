@@ -15,11 +15,12 @@
         align-items: stretch;
         position: absolute;
         overflow-x: hidden;
-       
     }
+
     .per{
         position: absolute;
     }
+
     .exp, .per{
         padding-bottom: 10vh; 
     }
@@ -34,7 +35,21 @@
         animation-duration: 2s;
     }
 
+    .lineaHorizontal{
+        width: 70vw;
+    }
 
+    .nav{
+        width: 100vw;
+    }
+
+    .nav ul{
+        justify-content: space-evenly;
+    }
+
+    i.fas {
+        font-size: 1.6em;
+    }
 }  
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -60,11 +75,11 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     
-  .exp{
-      padding: 5% 0 5% 0;
-  }    
-  .contenido{
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
+    .exp{
+        padding: 5% 0 5% 0;
+    }    
+    .contenido{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
 }
