@@ -5,6 +5,7 @@
     position: fixed;
     height: 100vh;
     align-items: center;
+    background: #e8ffff;
     
 }
 
@@ -200,3 +201,17 @@
     box-shadow: -1px 1px 20px 2px #3b635f;
 }
 
+/* TODO: SCROLLBAR */
+.contenido::-webkit-scrollbar{
+    width: 12px;
+
+}
+.contenido::-webkit-scrollbar-thumb{
+    background: #3b635f;
+    border-radius: 50px;
+    border-right: 1px solid #e8ffff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
