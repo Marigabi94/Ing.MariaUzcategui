@@ -22,7 +22,7 @@
 .text3{
     font-size: 1.20rem;
     color: #132926;
-    
+    pointer-events: none;
 }
 
 .text5, .text4{

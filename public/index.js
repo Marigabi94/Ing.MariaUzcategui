@@ -12,7 +12,7 @@ function ClickNav(idButton) {
   var opcion2 = document.getElementById('opcion2');
   var opcion3 = document.getElementById('opcion3');
   var opcion4 = document.getElementById('opcion4');
-
+  
     switch (idButton) {
         case 1:
             perfil.style.display = 'flex';
@@ -25,7 +25,6 @@ function ClickNav(idButton) {
             opcion2.style.color = '#e8ffff';
             opcion3.style.color = '#e8ffff';
             opcion4.style.color = '#e8ffff';
-            perfil.scrollTo = 0;
             break;
         case 2:
           perfil.style.display = 'none';
@@ -38,8 +37,8 @@ function ClickNav(idButton) {
           opcion2.style.color = '#41aea9';
           opcion3.style.color = '#e8ffff';
           opcion4.style.color = '#e8ffff';
-          experiencia.scrollTop= 0;
-          experiencia.body.scrollTop= 0;
+          experiencia.scrollTop= '0';
+          
           break;
         case 3:
           perfil.style.display = 'none';
