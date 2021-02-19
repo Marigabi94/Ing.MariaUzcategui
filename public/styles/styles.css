@@ -1,11 +1,12 @@
-.contenido{
+.pagcontent{
     display: flex;
-    float: right;
     right: 0;
     position: fixed;
     height: 100vh;
     align-items: center;
     background: #e8ffff;
+    overflow-x: hidden;
+    overflow-y: auto;
     
 }
 
@@ -201,12 +202,15 @@
     box-shadow: -1px 1px 20px 2px #3b635f;
 }
 
+/* ---------------------------------------------------------- */
 /* TODO: SCROLLBAR */
-.contenido::-webkit-scrollbar{
-    width: 12px;
+
+.pagcontent::-webkit-scrollbar{
+    /* position: fixed;  */
+    width: 8px;
 
 }
-.contenido::-webkit-scrollbar-thumb{
+.pagcontent::-webkit-scrollbar-thumb{
     background: #3b635f;
     border-radius: 50px;
     border-right: 1px solid #e8ffff;

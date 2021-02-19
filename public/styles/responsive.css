@@ -1,20 +1,31 @@
 /* Small devices (phones,tablets, 992px and down) */
 @media only screen and (max-width: 992px) { 
-     
-    .contenido{
-        padding-top: 15vh;
-        align-items: stretch;
-        position: absolute;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        scroll-behavior: smooth;
+
+    .col{
+        width: 100%;
     }
-  
+
+    .d-flex{
+        display: flex;
+    } 
+
+    .d-lg-flex{
+        display: none;
+    }
+
+    .pagcontent{
+        margin-top: 10vh;
+        padding-top: 3vh;
+        align-items: stretch;
+    }
+
     .per{
+        margin-top: 1vh;
         position: absolute;
     }
 
     .exp, .per{
+        margin-bottom: 10vh; 
         padding-bottom: 10vh; 
     }
 
@@ -43,19 +54,30 @@
     i.fas {
         font-size: 1.6em;
     }
+    p {
+        margin-bottom: 10vh;
+    }
 }  
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .col-3{ width: 25%;  }
+    .col-5{ width: 41.66%;  }
+    .col-8{ width: 66.66%;  }
+    .col-9{ width: 75%;  }
+    .col-12{ width: 100%;  }
+
     .exp{
         padding: 5% 0 5% 0;
+        
     }    
-    .contenido{
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
     
-   
- 
+    .d-none, .d-lg-none{
+        display: none;
+    } 
+    
+    .d-lg-flex{
+        display: flex;
+    }
+
 }

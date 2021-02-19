@@ -20,7 +20,7 @@
     color: #3b635f;
 }
 .text3{
-    font-size: 1.20rem;
+    font-size: 1.20em;
     color: #132926;
     pointer-events: none;
 }
@@ -28,7 +28,7 @@
 .text5, .text4{
     font-family: 'Satisfy', light;
     font-weight: 100;
-    font-size: 1.70rem;
+    font-size: 1.70em;
 }
 
 .text6{
@@ -37,5 +37,5 @@
 }
 
 .text1,.text6{
-    font-size: 1.30rem;
+    font-size: 1.30em;
 }
