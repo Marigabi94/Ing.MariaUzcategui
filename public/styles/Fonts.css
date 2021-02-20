@@ -4,38 +4,37 @@
 /* text3 = a y p */
 /* text5 = h2, h3 sidebar */
 /* text6 = a sidebar */
-.text1{
-    font-family: 'Courgette', bolder;
-   
+.text1 {
+  font-family: "Courgette", bolder;
 }
-.text1, .text4{
-    color: #27807b;
-}
-.text2, .text3{
-    font-family: 'Courgette', cursive;
-    font-weight: lighter;
+.text1, .text4 {
+  color: #27807b;
 }
 
-.text2{
-    color: #3b635f;
-}
-.text3{
-    font-size: 1.20em;
-    color: #132926;
-    pointer-events: none;
+.text2, .text3 {
+  font-family: "Courgette", cursive;
+  font-weight: lighter;
 }
 
-.text5, .text4{
-    font-family: 'Satisfy', light;
-    font-weight: 100;
-    font-size: 1.70em;
+.text2 {
+  color: #3b635f;
+}
+.text3 {
+  font-size: 1.2em;
+  color: #132926;
+  pointer-events: none;
 }
 
-.text6{
-    font-family: 'Courgette', cursive;
-    
+.text5, .text4 {
+  font-family: "Satisfy", light;
+  font-weight: 100;
+  font-size: 1.7em;
 }
 
-.text1,.text6{
-    font-size: 1.30em;
+.text6 {
+  font-family: "Courgette", cursive;
+}
+
+.text1, .text6 {
+  font-size: 1.3em;
 }

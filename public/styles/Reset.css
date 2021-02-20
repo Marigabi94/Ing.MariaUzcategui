@@ -1,64 +1,62 @@
 *, body, html, div, blockquote, img, p, h1, h2, h3, h4, h5, h6, label,pre, ul,
-ol, li, dl, dt, dd, form, a, fieldset, input, th, td, nav, header, aside, .content, .pagcontent{
-margin: 0; padding: 0; border: 0; outline: none; background: transparent; text-decoration: none;
-overflow: hidden;
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td, nav, header, aside, 
+.content, .pagcontent {
+
+    margin: 0; padding: 0; border: 0; outline: none; background: transparent; text-decoration: none;
+    overflow: hidden;
 
 }
 
 * {
     box-sizing: border-box;
-    
 }
 
-h1, h2, h3, h4, h5, h6
-{
-font-size: 100%;
-line-height: 1.4;
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    line-height: 1.4;
 }
 
-body
-{
-line-height: 1.3;
-font-size: 100%;
-
+body {
+    line-height: 1.3;
+    font-size: 100%;
 }
 
-.content{
+.content {
     width: 100%;
     height: 100%;
 }
 
-ul, ol, li
-{
-list-style: none;
+ul, ol, li {
+    list-style: none;
 }
- 
-:root{
+
+:root {
     overflow: hidden;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
-.rounded-circle{
+
+.rounded-circle {
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
