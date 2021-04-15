@@ -33,22 +33,29 @@
 				<ul class="d-flex">
 
 					<li class="nav-item" onclick="ClickNav(1)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#perfil">
 							<i id="opcion1" class="fas  fa-user"></i>
 						</a>
 					</li>
 					<li class="nav-item" onclick="ClickNav(2)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#experiencia">
 							<i id="opcion2" class="fas fa-suitcase"></i>
 						</a>
 					</li>
+					
+					<li class="nav-item" onclick="ClickNav(5)">
+						<a class="nav-link" href="#skill">
+							<i id="opcion5" class="fas fa-bolt"></i>
+						</a>
+					</li>
+					
 					<li class="nav-item" onclick="ClickNav(3)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#educacion">
 							<i id="opcion3" class="fas fa-user-graduate"></i>
 						</a>
 					</li>
 					<li class="nav-item" onclick="ClickNav(4)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#contactame">
 							<i id="opcion4" class="fas fa-share-alt"></i>&nbsp;
 						</a>
 					</li>
@@ -59,7 +66,7 @@
 
 		<aside id="navbar" class="sidebar-container d-none d-lg-flex col-3 column">
 
-			<div class="sidebar-logo col-12" onclick="ClickNav(1)">
+			<div class="sidebar-logo col-12" onclick="ClickNav(1)" href="#perfil" >
 
 				<div id="LogoSeccion-1" class="LogoSeccion1 column">
 					<h2 class="text5 text-left">&nbsp;&nbsp;&nbsp;María</h2>
@@ -74,17 +81,22 @@
 			<ul class="nav sidebar-navigation ">
 
 				<li class="nav-item text6" onclick="ClickNav(2)">
-					<a href="#">
+					<a href="#experiencia">
 						<i class="fas fa-suitcase"></i>&nbsp;&nbsp;&nbsp;Experiencia
 					</a>
 				</li>
+				<!-- <li class="nav-item text6" onclick="ClickNav(5)">
+					<a href="#skill">
+						<i class="fas fa-bolt"></i>&nbsp;&nbsp;&nbsp;Skill
+					</a>
+				</li> -->
 				<li class="nav-item text6" onclick="ClickNav(3)">
-					<a href="#">
+					<a href="#educacion">
 						<i class="fas fa-user-graduate"></i>&nbsp;&nbsp;&nbsp;Educación
 					</a>
 				</li>
 				<li class="nav-item text6" onclick="ClickNav(4)">
-					<a href="#">
+					<a href="#contactame">
 						<i class="fas fa-share-alt"></i>&nbsp;&nbsp;&nbsp;Contáctame
 					</a>
 				</li>
@@ -96,7 +108,8 @@
 					<img alt="Licencia Creative Commons" style="border-width:0"
 						src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 				<br />Esta obra está bajo una
-				<a class="text6" style="font-size:0.93rem" rel="license"
+				<a class="text6" style="font-size:0.93rem; color: #27807b;
+				text-decoration: underline;" rel="license"
 					href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons
 					Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
 				<br />
@@ -114,8 +127,8 @@
 				<p class="text3 animationtext-1 col col-8">Soy una persona lectora, autodidacta que nunca deja de
 					aprender,
 					que adora los retos y no se rinde fácilmente. Considero que el cambio
-					es un signo de capacidad de superación y, por ello, creo que siempre
-					sería capaz de aportar valor en la empresa en la que me encuentre.
+					es un signo de capacidad de superación y por ello siempre
+					seré capaz de aportar valor a la empresa en la que me encuentre.
 					Mi objetivo principal es desarrollarme profesionalmente y evolucionar
 					en mi sector, de modo que busco oportunidades que me permitan hacerlo.</p>
 			</div>
@@ -197,6 +210,93 @@
 				</div>
 
 			</div>
+
+			<!-- TODO: SECCION SKILL -->
+			<div id="skill" class="skl col-12 column ">
+				<h4 class="text4">Soft Skill</h4>
+				
+				<div class="skill-list col-12 row">
+					<div class="column">
+						<progress class="test"  id="etica" max="100" value="32"></progress>
+						<labe for="etica" class="textskl">Ética laboral</labe>
+					</div>
+
+					<div class="column">
+						<progress class="test"  id="empatia" max="100" value="32"></progress>
+						<labe for="empatia" class="textskl">Empatía</labe>
+					</div>
+
+					<div class="column">
+						<progress class="test"  id="paciencia" max="100" value="32"></progress>
+						<labe for="paciencia" class="textskl">Paciencia</labe>
+					</div>
+
+
+				</div>
+
+				<div class="skill-list col-12 row">
+					<div class="column">
+						<progress class="test"  id="comunicacion" max="100" value="32"></progress>
+						<labe for="comunicacion" class="textskl">Capacidad </br>de </br>comunicación</labe>
+					</div>
+
+					<div class="column">
+						<progress class="test"  id="equipo" max="100" value="32"></progress>
+						<labe for="equipo" class="textskl">Trabajo </br>en </br>equipo</labe>
+					</div>
+
+					<div class="column">
+						<progress class="test"  id="problemas" max="100" value="32"></progress>
+						<labe for="problemas" class="textskl">Resolución </br>de </br>problemas</labe>
+					</div>
+
+					<div class="column">
+						<progress class="test"  id="responsabilidad" max="100" value="32"></progress>
+						<labe for="responsabilidad" class="textskl">Responsabilidad</labe>
+					</div>
+
+				</div>
+
+				<h4 class="animationtext-1 text4">Hard Skill</h4>
+				<!-- <div class="row animationtext-1 col col-8" >
+					<a class="text3">CSS
+					</a>
+					<a class="text3">HTML5
+					</a>
+				</div>
+				<div class="row animationtext-1 col col-8" >
+					<a class="text3">Bootstrap
+					</a>
+					<a class="text3">Git
+					</a>
+				</div>
+				<div class="row animationtext-1 col col-8" >
+					<a class="text3">Angular6
+					</a>
+					<a class="text3">Java SE
+					</a>
+				</div>
+				<div class="row animationtext-1 col col-8" >
+					<a class="text3">JavaScript
+					</a>
+					<a class="text3">TypeScript
+					</a>
+					<a class="text3">PHP
+					</a>
+				</div>
+				 -->
+				<h4 class="animationtext-1 text4">Idiomas</h4>
+				<!-- <div class="row animationtext-1 col col-8" >
+					<a class="text3">Español
+					</a>
+					<a class="text3">Ingles
+					</a>
+				</div>
+				 -->
+
+			</div>
+
+
 		</seccion>
 
 	</div>

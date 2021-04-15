@@ -1,5 +1,5 @@
 *, body, html, div, blockquote, img, p, h1, h2, h3, h4, h5, h6, label,pre, ul,
-ol, li, dl, dt, dd, form, a, fieldset, input, th, td, nav, header, aside, 
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td, nav, header, aside,
 .content, .pagcontent {
 
     margin: 0; padding: 0; border: 0; outline: none; background: transparent; text-decoration: none;
