@@ -1,5 +1,5 @@
 # :globe_with_meridians: Página web Personal, Ing.MariaUzcategui. :globe_with_meridians:
-[![](https://img.shields.io/github/last-commit/marigabi94/Ing.MariaUzcategui?style=plastic)]()
+[![](https://img.shields.io/github/last-commit/marigabi94/python_practicas_basicas?style=plastic&logo=github&logoColor=white&labelColor=101010)]()
 
 [![Web](https://img.shields.io/badge/Web-Ing.MariaUzcategui-3DCBC2?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=101010)](https://ingmariauzcategui-e7a20.web.app/)
 
