@@ -19,16 +19,23 @@
         align-items: stretch;
     }
 
-    .per {
-        margin-top: 1vh;
-        position: absolute;
-    }
+   
 
     .exp, .per {
+        position: absolute;
         margin-bottom: 10vh; 
         padding-bottom: 10vh; 
+        margin-top: 2rem;
+        padding-top: 2rem;
+        
     }
-
+    .exp{
+        padding-top: 15%;
+    }
+    .edu, .con{
+        padding-top: 25%;
+        width: inherit;
+    }
     .text3 {
         padding: 0 5vw 0 5vw;
     }
@@ -58,6 +65,11 @@
 
     p {
         margin-bottom: 10vh;
+    }
+
+    .kofi{
+        right: 10px;
+        bottom: 10px;
     }
 }  
 

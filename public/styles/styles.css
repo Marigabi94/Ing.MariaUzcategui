@@ -1,7 +1,7 @@
 .pagcontent {
   display: flex;
   right: 0;
-  position: fixed;
+  position: absolute;
   height: 100vh;
   align-items: center;
   background: #e8ffff;
@@ -213,4 +213,39 @@
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+}
+
+.kofi{
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background: #FF5E5B;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  right: inherit;
+  margin: 2%;
+  box-shadow: 1px 1px 5px 2px #3b635f;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.kofi:hover{
+  background: #FBAA19;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.kofi:active{
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
 }

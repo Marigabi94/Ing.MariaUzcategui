@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
 		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	
 	<link rel="stylesheet" href="styles/Reset.css">
 	<link rel="stylesheet" href="styles/Fonts.css">
 	<link rel="stylesheet" href="styles/styles.css">
@@ -22,7 +23,7 @@
 
 
 </head>
-<!-- content -->
+
 
 <body class="content">
 	<div class="row">
@@ -33,22 +34,25 @@
 				<ul class="d-flex">
 
 					<li class="nav-item" onclick="ClickNav(1)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#perfil">
 							<i id="opcion1" class="fas  fa-user"></i>
 						</a>
 					</li>
 					<li class="nav-item" onclick="ClickNav(2)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#experiencia">
 							<i id="opcion2" class="fas fa-suitcase"></i>
 						</a>
 					</li>
+					
+			
+					
 					<li class="nav-item" onclick="ClickNav(3)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#educacion">
 							<i id="opcion3" class="fas fa-user-graduate"></i>
 						</a>
 					</li>
 					<li class="nav-item" onclick="ClickNav(4)">
-						<a class="nav-link" href="#">
+						<a class="nav-link" href="#contactame">
 							<i id="opcion4" class="fas fa-share-alt"></i>&nbsp;
 						</a>
 					</li>
@@ -59,7 +63,7 @@
 
 		<aside id="navbar" class="sidebar-container d-none d-lg-flex col-3 column">
 
-			<div class="sidebar-logo col-12" onclick="ClickNav(1)">
+			<div class="sidebar-logo col-12" onclick="ClickNav(1)" href="#perfil" >
 
 				<div id="LogoSeccion-1" class="LogoSeccion1 column">
 					<h2 class="text5 text-left">&nbsp;&nbsp;&nbsp;María</h2>
@@ -74,17 +78,18 @@
 			<ul class="nav sidebar-navigation ">
 
 				<li class="nav-item text6" onclick="ClickNav(2)">
-					<a href="#">
+					<a href="#experiencia">
 						<i class="fas fa-suitcase"></i>&nbsp;&nbsp;&nbsp;Experiencia
 					</a>
 				</li>
+			
 				<li class="nav-item text6" onclick="ClickNav(3)">
-					<a href="#">
+					<a href="#educacion">
 						<i class="fas fa-user-graduate"></i>&nbsp;&nbsp;&nbsp;Educación
 					</a>
 				</li>
 				<li class="nav-item text6" onclick="ClickNav(4)">
-					<a href="#">
+					<a href="#contactame">
 						<i class="fas fa-share-alt"></i>&nbsp;&nbsp;&nbsp;Contáctame
 					</a>
 				</li>
@@ -96,7 +101,8 @@
 					<img alt="Licencia Creative Commons" style="border-width:0"
 						src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 				<br />Esta obra está bajo una
-				<a class="text6" style="font-size:0.93rem" rel="license"
+				<a class="text6" style="font-size:0.93rem; color: #27807b;
+				text-decoration: underline;" rel="license"
 					href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons
 					Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
 				<br />
@@ -110,22 +116,31 @@
 			<div id="perfil" class="per col-12 column">
 				<img id=imgPerfil" src="images/1537384166448.jpg" class="ImgPerfil rounded-circle"></img>
 				<h2 class="animationtext text4">María Uzcategui</h2>
-				<h6 class="animationtext text2">Ing. En Informática. Programadora front-end.</h6>
-				<p class="text3 animationtext-1 col col-8">Soy una persona lectora, autodidacta que nunca deja de
-					aprender,
-					que adora los retos y no se rinde fácilmente. Considero que el cambio
-					es un signo de capacidad de superación y, por ello, creo que siempre
-					sería capaz de aportar valor en la empresa en la que me encuentre.
-					Mi objetivo principal es desarrollarme profesionalmente y evolucionar
-					en mi sector, de modo que busco oportunidades que me permitan hacerlo.</p>
+				<h6 class="animationtext text2">Ing. En Informática. Desarrolladora Frontend.</h6>
+				<p class="text3 animationtext-1 col col-8">Soy una Ing. en Informática, con carrera profesional 
+					como desarrolladora frontend con mas de 3 años de experiencia. Me gusta crear aplicaciones web con Angular,
+					fáciles de usar y construidas con las mejores prácticas.
+					Creo firmemente que la evolución, adaptabilidad y flexibilidad son signos de capacidad constante de superación; 
+					por ello siempre seré capaz de aportar valor en el equipo de trabajo donde participe. Busco formar parte de un 
+					equipo donde pueda obtener una valiosa experiencia con la cual pueda expandir mis conocimientos, 
+					habilidades y crear carrera, a través de un trabajo en equipo organizado e innovador.</p>
 			</div>
 
 			<!-- TODO: SECCION EXPERIENCIA -->
 			<div id="experiencia" class="exp col-12 column">
+				<h4 class="expSubText text1">ANALISTA DE DESARROLLO</h4>
+				<h6 class="expSubText text2">Hospital de Especialidades Pediátricas (Mayo/2021 – Diciembre/2021)</h6>
+				<a class="expText text3 col col-8">Evaluando las necesidades del hospital en sus sistemas 
+					contable y médico para una adaptabilidad de las necesidades, realizando 
+					una evolución tecnológica con un desarrollo constante, estable y organizado.
+				</a><br /><br />
+
+				<hr class="expText-1 lineaHorizontal col col-5">
+
+				<br /><br />
 				<h4 class="expSubText text1">ANALISTA II</h4>
 				<h6 class="expSubText text2">C.A. Seguros Catatumbo (Febrero/2020 – Julio/2020)</h6>
-				<a class="expText text3 col col-8">Empleado con la finalidad de analizar, desarrollar y documentar
-					actualizaciones al sistema de información.
+				<a class="expText text3 col col-8">Analizando, desarrollando y documentando actualizaciones al sistema de información.
 				</a><br /><br />
 
 				<hr class="expText-1 lineaHorizontal col col-5">
@@ -134,9 +149,8 @@
 
 				<h4 class="expSubText-1 text1">MAQUETADOR WEB JR</h4>
 				<h6 class="expSubText-1 text2">AresSolutiones (Mayo/2019)</h6>
-				<a class="expText-1 text3 col col-8">Empleado como outsourcing implementando Bootstrap, HTML5 y CSS3 en
-					el
-					maquetado de la nueva plataforma de la planeación distrital de Bogotá.
+				<a class="expText-1 text3 col col-8">Empleado como outsourcing en el maquetado de la 
+					nueva plataforma de la planeación distrital de Bogotá.
 				</a><br /><br />
 
 				<hr class="expText-2 lineaHorizontal col col-5">
@@ -144,10 +158,8 @@
 				<br /><br />
 				<h4 class="expSubText-2 text1">DESARROLLADOR FRONT-END JR</h4>
 				<h6 class="expSubText-2 text2">Sistemas Ventor (Septiembre/2018 – Abril/2019)</h6>
-				<a class="expText text3 col col-8">Participación en el maquetado de los proyectos Ventor Settings,
-					Ventor Sales 2.0 y
-					Unilever.
-					Utilizando el framework Angular6, HTML5, Typescript y SCSS.
+				<a class="expText text3 col col-8">Participación en los proyectos Ventor Settings,
+					Ventor Sales 2.0 y Unilever. 
 				</a><br /><br />
 
 				<hr class="expText lineaHorizontal col col-5">
@@ -155,8 +167,8 @@
 				<br /><br />
 				<h4 class="expSubText text1">DESARROLLADOR FRONT-END JR</h4>
 				<h6 class="expSubText text2">Grupo Bridge, C.A (Agosto/2018)</h6>
-				<a class="expText text3 col col-8">Periodo de prueba realizando traducción de un proyecto app web móvil
-					y modificaciones de diseño utilizando CSS, JavaScript, HTML y PHP.
+				<a class="expText text3 col col-8">Período de prueba realizando traducción de inglés 
+					a español de una app web móvil y modificaciones de diseño.
 				</a><br /><br />
 
 				<hr class="expText lineaHorizontal col col-5">
@@ -164,12 +176,17 @@
 				<br /><br />
 				<h4 class="expSubText text1">ANALISTA Y PROGRAMADOR JR</h4>
 				<h6 class="expSubText text2">Inverdata (Abril/2018 – Julio/2018)</h6>
-				<a class="expText text3 col col-8">Evaluación de requerimientos faltantes en la nueva versión de Saphiro
-					Biométrico,
-					planificación e implementación de tiempos de entrega, análisis lógico de código y
-					depuración del mismo. Programando en Java SE junto con PostgreSQL, enfocada en la
-					validación de datos y mejoras del diseño.
-				</a>
+				<a class="expText text3 col col-8">Evaluación de requerimientos en la nueva versión de 
+					Saphiro Biométrico, planificación e implementación de tiempos de entrega, 
+					análisis lógico de código y depuración del mismo.
+				</a><br /><br />
+				
+				<hr class="expText lineaHorizontal col col-5">
+
+				<br /><br />
+				<h4 class="expSubText text1">PASANTE PROGRAMADOR JR</h4>
+				<h6 class="expSubText text2">Inverdata (Enero/2018 – Marzo/2018)</h6>
+				
 
 
 			</div>
@@ -190,15 +207,23 @@
 
 					<a href="mailto:marigabi940@gmail.com"><img class="mail imgCon"
 							src="images/gmail.svg">&nbsp;&nbsp;</a>
-					<a href="https://www.linkedin.com/in/maría-gabriela-uzcategui-perich-8b0072126"><img class="imgCon"
+					<a href="https://www.linkedin.com/in/IngMariaUzcategui/"><img class="imgCon"
 							src="images/linkedin.svg">&nbsp;&nbsp;</a>
-					<a href="https://github.com/Marigabi94?tab=repositories"><img class="imgCon"
+					<a href="https://github.com/Marigabi94"><img class="imgCon"
 							src="images/github.svg"></a>
 				</div>
 
 			</div>
-		</seccion>
 
+			<button id="kofi" class="kofi" ><img src="images/Ko-fi_Icon_RGB_stroke.png" style="width: 60px;"></button>
+			<script>
+				document.getElementById('kofi').addEventListener('click', function(event) {
+				window.location.href='https://ko-fi.com/marigabi94';
+				});
+			</script>
+		</seccion>
+		
+			
 	</div>
 </body>
 
